@@ -11,6 +11,11 @@ function App() {
           <RowLineConten>
             <Profile />
           </RowLineConten>
+          <RowLineConten>
+            <h1 id="instrument-serif-regular" className="text-2xl text-start">
+              PROJECTS
+            </h1>
+          </RowLineConten>
         </ConrtainerContens >
       </main>
     </>
