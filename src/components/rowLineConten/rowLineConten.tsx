@@ -8,7 +8,7 @@ function RowLineConten({ children }: RowLineContenProps) {
         <svg className="w-full flex-1" height="1" viewBox="0 0 1439 1" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1440 0.5H0" stroke="black" stroke-opacity="0.2" stroke-dasharray="10 10" />
         </svg>
-        <div className="px-96">
+        <div className="xl:px-[25%] md:px-[10%] ">
             <div className="px-5 py-2">
                 {children}
             </div>

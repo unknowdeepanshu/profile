@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <main className="px-96 relative">
+      <main className="xl:px-[25%] md:px-[10%] relative">
         <ConrtainerContens >
           <RowLineConten>
             <Profile />
