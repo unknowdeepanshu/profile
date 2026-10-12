@@ -8,10 +8,10 @@ function Buttons({ className, children, ...props }: ButtonsProps) {
         <>
             <button
                 className={cn(
-                    "border-button-100 text-texts-200 bg-button-100 lg:text-texts-200 lg:hover:bg-button-100 rounded-md border-4 px-7 py-3 font-semibold shadow-[0_0_18px_rgba(201,164,92,0.25)] transition-all duration-300 md:text-[#0D0A08] lg:bg-transparent lg:shadow-none lg:hover:text-[#0D0A08] lg:hover:shadow-[0_0_18px_rgba(201,164,92,0.25)]",
+                    "text-center p-2 flex gap-2  border-4 border-[#707070] rounded-[10px] txet-[20px]  bg-black text-white",
                     className,
                 )}
-                id="Button"
+                id="rowdies-light"
                 {...props}
             >
                 {children}
