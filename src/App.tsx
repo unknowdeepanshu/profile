@@ -1,25 +1,24 @@
-import ConrtainerContens from "@/components/conrtainerContens/conrtainerContens"
-import Profile from "@/components/Profile/Profile"
-import RowLineConten from "@/components/rowLineConten/rowLineConten"
+import ConrtainerContens from "@/components/conrtainerContens/conrtainerContens";
+import Profile from "@/components/Profile/Profile";
+import RowLineConten from "@/components/rowLineConten/rowLineConten";
 
 function App() {
-
   return (
     <>
-      <main className="xl:px-[25%] md:px-[10%] relative">
-        <ConrtainerContens >
+      <main>
+        <ConrtainerContens>
           <RowLineConten>
             <Profile />
           </RowLineConten>
           <RowLineConten>
-            <h1 id="instrument-serif-regular" className="text-2xl text-start">
+            <h1 id="instrument-serif-regular" className="text-start text-2xl">
               PROJECTS
             </h1>
           </RowLineConten>
-        </ConrtainerContens >
+        </ConrtainerContens>
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
