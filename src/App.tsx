@@ -1,6 +1,7 @@
 import ConrtainerContens from "@/components/conrtainerContens/conrtainerContens";
 import Profile from "@/components/Profile/Profile";
 import RowLineConten from "@/components/rowLineConten/rowLineConten";
+import Footer from "@/components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               PROJECTS
             </h1>
           </RowLineConten>
+          <Footer />
         </ConrtainerContens>
       </main>
     </>
