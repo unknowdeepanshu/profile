@@ -38,3 +38,6 @@
   font-weight: 400;
   font-style: normal;
 }
+@theme {
+  --color-live-100: #4bdc1f;
+}

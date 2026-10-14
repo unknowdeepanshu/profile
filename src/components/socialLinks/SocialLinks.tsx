@@ -7,16 +7,20 @@ import {
 function SocialLinks() {
   const myAccountsLinks = [
     {
-      SocialLinks: <IconBrandGithub />,
+      SocialLinks: "#",
+      SocialIcon: <IconBrandGithub />,
     },
     {
-      SocialLinks: <IconBrandLinkedin />,
+      SocialLinks: "#",
+      SocialIcon: <IconBrandLinkedin />,
     },
     {
-      SocialLinks: <IconBrandX />,
+      SocialLinks: "#",
+      SocialIcon: <IconBrandX />,
     },
     {
-      SocialLinks: <IconBrandDiscord />,
+      SocialLinks: "#",
+      SocialIcon: <IconBrandDiscord />,
     },
   ];
   return (
@@ -27,7 +31,7 @@ function SocialLinks() {
             key={index}
             className="flex h-10 w-10 items-center justify-center rounded-[50%] border border-black"
           >
-            <a href="#">{social.SocialLinks}</a>
+            <a href={social.SocialLinks}>{social.SocialIcon}</a>
           </div>
         ))}
       </div>
