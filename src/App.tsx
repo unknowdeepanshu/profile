@@ -7,7 +7,7 @@ import Card from "@/components/card/card";
 function App() {
   return (
     <>
-      <main>
+      <main className="h-screen">
         <ConrtainerContens>
           <RowLineConten>
             <Profile />

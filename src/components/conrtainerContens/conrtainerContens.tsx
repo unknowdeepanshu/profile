@@ -7,7 +7,7 @@ const path = `M0.507813 0.000157458L0.00781255 0.000135477L0.0078018 5.00876L0.5
 function ConrtainerContens({ children }: ConrtainerContensProps) {
   return (
     <>
-      <div className="relative flex justify-between md:px-[10%] xl:px-[25%]">
+      <div className="relative flex h-full justify-between md:px-[10%] xl:px-[25%]">
         <svg
           width="1"
           className="h-full"

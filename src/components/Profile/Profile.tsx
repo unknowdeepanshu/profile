@@ -35,7 +35,7 @@ function Profile() {
 function Bio() {
   return (
     <>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 pb-10">
         <p className="text-[22px]">
           I build complete websites and web apps, from designing how they look
           to building how they work. I focus on the small details that make
