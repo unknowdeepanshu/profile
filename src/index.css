@@ -39,5 +39,7 @@
   font-style: normal;
 }
 @theme {
-  --color-live-100: #4bdc1f;
+  --color-live-100: #23c65f;
+  --color-live-200: #fb923d;
+  --color-live-300: #d4483f;
 }

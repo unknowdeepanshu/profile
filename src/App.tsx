@@ -2,7 +2,7 @@ import ConrtainerContens from "@/components/conrtainerContens/conrtainerContens"
 import Profile from "@/components/Profile/Profile";
 import RowLineConten from "@/components/rowLineConten/rowLineConten";
 import Footer from "@/components/footer/Footer";
-import Card from "@/components/card/card";
+import Projects from "@/components/projects/projects";
 
 function App() {
   return (
@@ -17,14 +17,7 @@ function App() {
               PROJECTS
             </h1>
           </RowLineConten>
-          <RowLineConten>
-            <div className="grid w-full grid-cols-1 gap-8 pb-12 md:grid-cols-2">
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-            </div>
-          </RowLineConten>
+          <Projects />
           <Footer />
         </ConrtainerContens>
       </main>
