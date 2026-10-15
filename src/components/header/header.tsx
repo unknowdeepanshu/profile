@@ -21,7 +21,7 @@ function Header() {
   return (
     <>
       <div className="mb-6 flex h-11 w-full justify-end md:px-[14%] xl:px-[27%]">
-        <nav className="flex items-center rounded-3xl border border-gray-950/30 bg-zinc-100/30 shadow-2xs">
+        <nav className="flex items-center rounded-3xl border border-neutral-600 bg-white shadow-2xs">
           <ul className="flex">
             {navBar.map((item, index) => (
               <li
@@ -35,7 +35,7 @@ function Header() {
                 {activeItem === index && (
                   <motion.span
                     layoutId="nav-highlight"
-                    className="absolute inset-0 rounded-3xl bg-gray-400"
+                    className="absolute inset-0 rounded-3xl bg-gray-100"
                     transition={{ type: "spring", stiffness: 420, damping: 30 }}
                   />
                 )}

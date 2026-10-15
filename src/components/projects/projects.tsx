@@ -15,6 +15,7 @@ function Projects() {
                   img={data.ProjectsImg}
                   description={data.ProjectsDescription}
                   name={data.projectsName}
+                  currentstatus={data.ProjectsStatus}
                 />
               );
           })}
