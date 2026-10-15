@@ -2,8 +2,19 @@ import Birds from "@/assets/birds.png";
 import { cn } from "@/lib/utils";
 interface CardProps {
   currentstatus?: string;
+  img?: string;
+  description?: string;
+  techstack?: string[];
+  name?: string;
 }
-function Card({ currentstatus = "closed" }: CardProps) {
+function Card({
+  currentstatus = "closed",
+  name = " Spice Route",
+  img = Birds,
+  description = `   A premium restaurant website for North Indian and Mughlai cuisine,
+              featuring an interactive menu, chef profiles, food galleries, and
+              table reservations.`,
+}: CardProps) {
   let color;
   switch (currentstatus) {
     case "successful":
@@ -32,8 +43,8 @@ function Card({ currentstatus = "closed" }: CardProps) {
           <div className="relative flex h-full w-full p-4">
             <div className="flex w-full justify-center rounded-2xl bg-gray-200/50 px-10 pt-10">
               <img
-                src={Birds}
-                alt="Birds"
+                src={img}
+                alt={`${img}`}
                 className="h-full w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20"
               />
             </div>
@@ -42,7 +53,7 @@ function Card({ currentstatus = "closed" }: CardProps) {
         <div className="flex h-1/2 flex-col">
           <div className="flex w-full justify-between">
             <h3 id="BoldJetBrains" className="text-[32px]">
-              Spice Route
+              {name}
             </h3>
             <div className="flex w-fit items-center p-3">
               <div className="rounded-2xl border border-black">
@@ -61,11 +72,7 @@ function Card({ currentstatus = "closed" }: CardProps) {
             </div>
           </div>
           <div>
-            <p>
-              A premium restaurant website for North Indian and Mughlai cuisine,
-              featuring an interactive menu, chef profiles, food galleries, and
-              table reservations.
-            </p>
+            <p>{description}</p>
           </div>
         </div>
       </div>
