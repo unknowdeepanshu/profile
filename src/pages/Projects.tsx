@@ -3,7 +3,6 @@ import ConrtainerContens from "@/components/conrtainerContens/conrtainerContens"
 import Header from "@/components/header/header";
 import { Myprojects } from "@/components/projects/projectsData";
 import RowLineConten from "@/components/rowLineConten/rowLineConten";
-
 function Projects() {
   return (
     <>
