@@ -17,7 +17,7 @@ function ConrtainerContens({ children }: ConrtainerContensProps) {
         >
           <path d={path} fill="black" fill-opacity="0.2" />
         </svg>
-        <div className="absolute inset-x-0 pt-20">{children}</div>
+        <div className="absolute inset-x-0 pt-5">{children}</div>
 
         <svg
           width="1"

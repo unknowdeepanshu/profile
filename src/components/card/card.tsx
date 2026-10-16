@@ -40,7 +40,7 @@ function Card({
     <>
       <div className="col-span-1 flex h-fit w-full flex-col">
         <div className="h-1/2">
-          <div className="relative flex h-full w-full p-4">
+          <div className="relative flex h-full w-full">
             <div className="flex w-full justify-center rounded-2xl bg-gray-200/50 px-10 pt-10">
               <img
                 src={img}
