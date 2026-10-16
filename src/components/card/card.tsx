@@ -41,11 +41,11 @@ function Card({
       <div className="col-span-1 flex h-fit w-full flex-col">
         <div className="h-1/2">
           <div className="relative flex h-full w-full">
-            <div className="flex w-full justify-center rounded-2xl bg-gray-200/50 px-10 pt-10">
+            <div className="flex h-fit w-full justify-center rounded-2xl bg-gray-200/50 px-10 pt-10">
               <img
                 src={img}
                 alt={`${img}`}
-                className="h-full w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20"
+                className="h-[12rem] w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20"
               />
             </div>
           </div>

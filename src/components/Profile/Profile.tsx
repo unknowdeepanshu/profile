@@ -19,7 +19,7 @@ function Profile() {
             Dipanshu Vishwakarma
           </h1>
           <h2 id="tourney" className="text-[20px]">
-            Creative Coding
+            <span>Creative Coding</span>
           </h2>
           <h2 className="flex items-center gap-2 text-[20px]">
             <IconMapPin />
