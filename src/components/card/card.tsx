@@ -6,6 +6,7 @@ interface CardProps {
   description?: string;
   techstack?: string[];
   name?: string;
+  className?: string;
 }
 function Card({
   currentstatus = "closed",
@@ -14,6 +15,7 @@ function Card({
   description = `   A premium restaurant website for North Indian and Mughlai cuisine,
               featuring an interactive menu, chef profiles, food galleries, and
               table reservations.`,
+  className,
 }: CardProps) {
   let color;
   switch (currentstatus) {
@@ -39,13 +41,16 @@ function Card({
   return (
     <>
       <div className="col-span-1 flex h-fit w-full flex-col">
-        <div className="h-1/2">
+        <div className="mb-4 h-1/2">
           <div className="relative flex h-full w-full">
             <div className="flex h-fit w-full justify-center rounded-2xl bg-gray-200/50 px-10 pt-10">
               <img
                 src={img}
                 alt={`${img}`}
-                className="h-47 w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20"
+                className={cn(
+                  "h-47 w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20",
+                  className,
+                )}
               />
             </div>
           </div>

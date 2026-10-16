@@ -1,7 +1,7 @@
 import { IconMapPin } from "@tabler/icons-react";
 import Dipanshu from "@/assets/Dipanshu.png";
 import SocialLinks from "../socialLinks/SocialLinks";
-import Buttons from "@/ui/Button";
+import Buttons from "@/components/ui/Button";
 import { IconCalendarMonth, IconMail } from "@tabler/icons-react";
 function Profile() {
   return (

@@ -8,7 +8,7 @@ function Header() {
   const location = useLocation();
   const navBar = [
     { navName: "Home", navLink: "/" },
-    { navName: "Projects", navLink: "/projecs" },
+    { navName: "Projects", navLink: "/projects" },
   ] as const;
   const routeIndex = navBar.findIndex(
     (item) => item.navLink === location.pathname,
