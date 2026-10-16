@@ -45,7 +45,7 @@ function Card({
               <img
                 src={img}
                 alt={`${img}`}
-                className="h-[12rem] w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20"
+                className="h-47 w-full rounded-t-2xl shadow-[0_-4px_25px_var(--color-black)]/20"
               />
             </div>
           </div>
