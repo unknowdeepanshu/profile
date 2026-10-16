@@ -7,25 +7,29 @@ import RowLineConten from "@/components/rowLineConten/rowLineConten";
 function Projects() {
   return (
     <>
-      <ConrtainerContens>
-        <Header />
-        <div className="flex flex-col flex-wrap px-5 pb-10">
-          {Myprojects.map((data, index) => {
-            return (
-              <RowLineConten>
-                <Card
-                  key={index}
-                  img={data.ProjectsImg}
-                  description={data.ProjectsDescription}
-                  name={data.projectsName}
-                  currentstatus={data.ProjectsStatus}
-                  className="h-80"
-                />
-              </RowLineConten>
-            );
-          })}
-        </div>
-      </ConrtainerContens>
+      <main className="h-screen overflow-hidden">
+        <ConrtainerContens>
+          <Header />
+          <div className="h-screen overflow-auto">
+            <div className="flex flex-col flex-wrap px-5 pb-31">
+              {Myprojects.map((data, index) => {
+                return (
+                  <RowLineConten>
+                    <Card
+                      key={index}
+                      img={data.ProjectsImg}
+                      description={data.ProjectsDescription}
+                      name={data.projectsName}
+                      currentstatus={data.ProjectsStatus}
+                      className="h-80"
+                    />
+                  </RowLineConten>
+                );
+              })}
+            </div>
+          </div>
+        </ConrtainerContens>
+      </main>
     </>
   );
 }

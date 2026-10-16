@@ -21,8 +21,8 @@ function RowLineConten({ children }: RowLineContenProps) {
         />
       </svg>
       <div>
-        <div className="md:px-[10%] xl:px-[25%]">
-          <div className="px-5 py-2">{children}</div>
+        <div className="w-full md:px-[10%] xl:px-[25%]">
+          <div className="w-full px-5 py-2">{children}</div>
         </div>
       </div>
       <svg

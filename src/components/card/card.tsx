@@ -1,5 +1,7 @@
 import Birds from "@/assets/birds.png";
 import { cn } from "@/lib/utils";
+import TechUsed from "../techUsed/techUsed";
+
 interface CardProps {
   currentstatus?: string;
   img?: string;
@@ -57,9 +59,11 @@ function Card({
         </div>
         <div className="flex h-1/2 flex-col">
           <div className="flex w-full justify-between">
-            <h3 id="BoldJetBrains" className="text-[32px]">
-              {name}
-            </h3>
+            <div className="flex items-center justify-center">
+              <h3 id="BoldJetBrains" className="text-[32px]">
+                {name}
+              </h3>
+            </div>
             <div className="flex w-fit items-center p-3">
               <div className="rounded-2xl border border-black">
                 <div className="flex w-fit items-center justify-between gap-2 px-1.5">
@@ -78,6 +82,20 @@ function Card({
           </div>
           <div>
             <p>{description}</p>
+          </div>
+          <div className="flex w-full justify-between">
+            <div className="flex items-center justify-center">
+              <TechUsed />
+            </div>
+            <div className="flex w-fit items-center p-3">
+              <div className="rounded-2xl">
+                <div className="flex w-fit items-center justify-between gap-2 px-5">
+                  <h5 id="BoldJetBrains" className="text-[1rem] text-black">
+                    view projects
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
