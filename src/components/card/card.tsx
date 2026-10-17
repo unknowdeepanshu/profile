@@ -61,7 +61,7 @@ function Card({
         <div className="flex h-1/2 flex-col">
           <div className="flex w-full justify-between">
             <div className="flex items-center justify-center">
-              <h3 id="BoldJetBrains" className="text-[32px]">
+              <h3 id="BoldJetBrains" className="text-[30px]">
                 {name}
               </h3>
             </div>

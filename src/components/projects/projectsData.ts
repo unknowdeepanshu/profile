@@ -5,10 +5,10 @@ export const Myprojects = [
     projectsName: "BirdLens AI",
     ProjectsImg: birds,
     ProjectsDescription:
-      "An AI-powered bird identification tool that helps birdwatchers identify bird species and learn about wildlife.",
+      "Identify birds, explore species information, and save wildlife discoveries with an AI-powered birdwatching companion.",
     ProjectsBackground: "",
     ProjectsStatus: "successful",
-    ProjectsTechstack: ["React", "Tailwind CSS", "Motion", "TypeScript"],
+    ProjectsTechstack: ["React", "tailwind", "motion", "typescript"],
     Projectslable: "Hacktoberfest2026",
     ProjectsGithub: "https://github.com/unknowdeepanshu/birdlens-ai",
     ProjectsWebsite: "https://birdlens-ai.vercel.app/",
@@ -17,10 +17,10 @@ export const Myprojects = [
     projectsName: "SellCraft AI",
     ProjectsImg: SellCraftAI,
     ProjectsDescription:
-      "An AI-powered product listing generator that helps online sellers create product titles, descriptions, and keywords from product details.",
+      "Generate product titles, descriptions, and keywords using AI to help online sellers create professional product listings.",
     ProjectsBackground: "",
     ProjectsStatus: "successful",
-    ProjectsTechstack: ["React", "Tailwind CSS", "Motion", "TypeScript"],
+    ProjectsTechstack: ["React", "tailwind", "motion", "typescript"],
     Projectslable: "Hacktoberfest2026",
     ProjectsGithub: "https://github.com/unknowdeepanshu/SellCraft-AI",
     ProjectsWebsite: "#",
@@ -29,10 +29,10 @@ export const Myprojects = [
     projectsName: "Brew District Cafe",
     ProjectsImg: brewdistrictcafe,
     ProjectsDescription:
-      "A modern café website featuring an inviting menu, attractive food photography, and a smooth browsing experience.",
+      "Explore a modern cafe website showcasing its menu, signature coffee, inviting atmosphere, and customer experience.",
     ProjectsBackground: "",
     ProjectsStatus: "successful",
-    ProjectsTechstack: ["React", "Tailwind CSS", "Motion", "TypeScript"],
+    ProjectsTechstack: ["React", "tailwind", "motion", "typescript"],
     Projectslable: "Demo",
     ProjectsGithub:
       "https://github.com/unknowdeepanshu/cafe-and-restaurant/tree/main/Brew%20District%20Cafe",
@@ -42,10 +42,10 @@ export const Myprojects = [
     projectsName: "Spice Route",
     ProjectsImg: SpiceRoute,
     ProjectsDescription:
-      "A restaurant website showcasing North Indian and Mughlai cuisine with an interactive menu and an elegant dining experience.",
+      "Discover a restaurant website featuring North Indian cuisine, an interactive menu, food photography, and dining information.",
     ProjectsBackground: "",
     ProjectsStatus: "successful",
-    ProjectsTechstack: ["React", "Tailwind CSS", "Motion", "TypeScript"],
+    ProjectsTechstack: ["React", "tailwind", "motion", "typescript"],
     Projectslable: "Demo",
     ProjectsGithub:
       "https://github.com/unknowdeepanshu/cafe-and-restaurant/tree/main/Spice%20Route%20Restaurant",
