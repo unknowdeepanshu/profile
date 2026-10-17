@@ -1,8 +1,8 @@
 import Birds from "@/assets/birds.png";
 import { cn } from "@/lib/utils";
 import TechUsed from "../techUsed/techUsed";
-
 import { IconArrowNarrowRight, IconArrowUpRight } from "@tabler/icons-react";
+import { Link } from "react-router";
 interface CardProps {
   currentstatus?: string;
   img?: string;
@@ -91,16 +91,17 @@ function Card({
             <div className="flex w-fit items-center p-3">
               <div className="rounded-2xl">
                 <div className="group flex w-fit cursor-pointer items-center justify-between gap-2 px-5">
-                  <h5
+                  <Link
+                    to={`/projects/${name}`}
                     id="BoldJetBrains"
-                    className="flex gap-2 text-[1rem] text-black"
+                    className="flex gap-2 text-[1rem] text-black opacity-40 hover:opacity-100"
                   >
                     view projects{" "}
-                    <span className="relative size-6">
+                    <div className="relative size-6">
                       <IconArrowNarrowRight className="absolute inset-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-0" />
                       <IconArrowUpRight className="absolute inset-0 opacity-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:opacity-100" />
-                    </span>
-                  </h5>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

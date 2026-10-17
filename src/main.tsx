@@ -5,6 +5,7 @@ import App from "./pages/App.tsx";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Projects from "./pages/Projects.tsx";
+import SingleProjects from "./pages/singleProjects.tsx";
 
 const route = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const route = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/projects/:projectsnumber",
+    element: <SingleProjects />,
   },
 ]);
 

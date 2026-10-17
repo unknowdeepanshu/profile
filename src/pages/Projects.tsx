@@ -20,7 +20,7 @@ function Projects() {
                       description={data.ProjectsDescription}
                       name={data.projectsName}
                       currentstatus={data.ProjectsStatus}
-                      className="h-80"
+                      className="h-120"
                     />
                   </RowLineConten>
                 );

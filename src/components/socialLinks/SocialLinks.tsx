@@ -7,19 +7,19 @@ import {
 function SocialLinks() {
   const myAccountsLinks = [
     {
-      SocialLinks: "#",
+      SocialLinks: "https://github.com/unknowdeepanshu",
       SocialIcon: <IconBrandGithub />,
     },
     {
-      SocialLinks: "#",
+      SocialLinks: "https://br.linkedin.com/in/dipanshu-vishwakarma-145937316",
       SocialIcon: <IconBrandLinkedin />,
     },
     {
-      SocialLinks: "#",
+      SocialLinks: "https://x.com/DipanshuVi6799",
       SocialIcon: <IconBrandX />,
     },
     {
-      SocialLinks: "#",
+      SocialLinks: "https://discord.com/users/1076176212218613830",
       SocialIcon: <IconBrandDiscord />,
     },
   ];
