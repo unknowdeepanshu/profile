@@ -1,8 +1,9 @@
 import { IconMapPin } from "@tabler/icons-react";
 import Dipanshu from "@/assets/Dipanshu.png";
 import SocialLinks from "../socialLinks/SocialLinks";
-import Buttons from "@/components/ui/Button";
-import { IconCalendarMonth, IconMail } from "@tabler/icons-react";
+import { IconMail } from "@tabler/icons-react";
+import { Link } from "react-router";
+
 function Profile() {
   return (
     <>
@@ -49,12 +50,7 @@ function Bio() {
             <SocialLinks />
           </div>
           <div className="flex items-center justify-center gap-2">
-            <Buttons>
-              <IconCalendarMonth /> Book call
-            </Buttons>
-            <Buttons className="border-[#616161]/25 bg-white text-black">
-              <IconMail /> Send email
-            </Buttons>
+            <ContactButton />
           </div>
         </div>
       </div>
@@ -63,3 +59,38 @@ function Bio() {
 }
 
 export default Profile;
+function ContactButton() {
+  const email = "dipanshuvishwakarma616@gmail.com";
+
+  const subject = "Let's work together";
+
+  const body = `Hi,
+
+I came across your portfolio and would like to discuss a project.
+
+Project details:
+- Project:
+- Budget:
+- Timeline:
+
+Looking forward to hearing from you.
+
+Thanks!`;
+
+  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+    email,
+  )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  return (
+    <Link
+      to={gmailLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 rounded-lg bg-black px-5 py-3 text-white transition hover:opacity-80"
+    >
+      {" "}
+      <IconMail />
+      Send me an email
+    </Link>
+  );
+}
