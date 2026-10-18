@@ -1,6 +1,6 @@
 import Card from "@/components/card/card";
 import RowLineConten from "../rowLineConten/rowLineConten";
-import { Myprojects } from "./projectsData";
+import { Myprojects } from "../../data/projectsData";
 
 function Projects() {
   return (

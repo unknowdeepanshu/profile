@@ -1,6 +1,6 @@
 import { IconWorld, IconBrandGithub } from "@tabler/icons-react";
 import { Link, useParams } from "react-router";
-import { Myprojects } from "../projects/projectsData";
+import { Myprojects } from "../../data/projectsData";
 
 function SingleCard() {
   const { projectsnumber } = useParams();
