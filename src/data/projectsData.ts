@@ -19,7 +19,7 @@ export const Myprojects = [
     ProjectsDescription:
       "Generate product titles, descriptions, and keywords using AI to help online sellers create professional product listings.",
     ProjectsBackground: "",
-    ProjectsStatus: "successful",
+    ProjectsStatus: "closed",
     ProjectsTechstack: ["React", "tailwind", "motion", "typescript"],
     Projectslable: "Hacktoberfest2026",
     ProjectsGithub: "https://github.com/unknowdeepanshu/SellCraft-AI",
