@@ -16,13 +16,13 @@ function Profile() {
           />
         </div>
         <div className="flex flex-col justify-end gap-2 pb-2">
-          <h1 id="rowdies-bold" className="text-4xl">
+          <h1 id="rowdies-bold" className="text-2xl sm:text-4xl">
             Dipanshu Vishwakarma
           </h1>
-          <h2 id="tourney" className="text-[20px]">
+          <h2 id="tourney" className="sm:text-[20px]">
             <span>Creative Coding</span>
           </h2>
-          <h2 className="flex items-center gap-2 text-[20px]">
+          <h2 className="flex items-center gap-2 sm:text-[20px]">
             <IconMapPin />
             <span>mumbai,maharashtra</span>
           </h2>
@@ -42,14 +42,14 @@ function Bio() {
           to building how they work. I focus on the small details that make
           websites look great and feel easy to use.
         </p>
-        <div className="flex justify-between">
+        <div className="flex flex-col justify-between gap-4 sm:flex-row">
           <div className="flex flex-col gap-2">
             <h4 id="BoldJetBrains" className="text-[20px]">
               Social links
             </h4>
             <SocialLinks />
           </div>
-          <div className="flex items-center justify-center gap-2">
+          <div className="flex gap-2 sm:items-center sm:justify-center">
             <ContactButton />
           </div>
         </div>

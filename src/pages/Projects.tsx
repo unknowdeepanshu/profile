@@ -10,7 +10,7 @@ function Projects() {
         <ConrtainerContens>
           <Header />
           <div className="h-screen overflow-auto">
-            <div className="flex flex-col flex-wrap px-5 pb-31">
+            <div className="flex flex-col flex-wrap pb-31 sm:px-5">
               {Myprojects.map((data, index) => {
                 return (
                   <RowLineConten>

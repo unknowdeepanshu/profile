@@ -59,15 +59,15 @@ function Card({
           </div>
         </div>
         <div className="flex h-1/2 flex-col">
-          <div className="flex w-full justify-between">
-            <div className="flex items-center justify-center">
+          <div className="my-4 flex w-full flex-col justify-between gap-4 sm:flex-row">
+            <div className="flex sm:items-center sm:justify-center">
               <h3 id="BoldJetBrains" className="text-[30px]">
                 {name}
               </h3>
             </div>
-            <div className="flex w-fit items-center p-3">
+            <div className="flex w-fit items-center sm:p-3">
               <div className="rounded-2xl border border-black">
-                <div className="flex w-fit items-center justify-between gap-2 px-1.5">
+                <div className="flex w-fit justify-between gap-2 px-1.5 sm:items-center">
                   <div
                     className={cn(
                       "b relative m-1 size-3 rounded-full border",
@@ -84,13 +84,13 @@ function Card({
           <div>
             <p>{description}</p>
           </div>
-          <div className="flex w-full justify-between">
-            <div className="flex items-center justify-center">
+          <div className="flex w-full flex-col justify-between">
+            <div className="flex sm:items-center sm:justify-center">
               <TechUsed />
             </div>
             <div className="flex w-fit items-center p-3">
               <div className="rounded-2xl">
-                <div className="group flex w-fit cursor-pointer items-center justify-between gap-2 px-5">
+                <div className="group flex w-fit cursor-pointer justify-between gap-2 sm:items-center sm:px-5">
                   <Link
                     to={`/projects/${name}`}
                     id="BoldJetBrains"
